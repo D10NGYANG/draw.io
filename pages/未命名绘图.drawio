@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-07-19T02:39:09.906Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.2 Safari/605.1.15" etag="KFq7knrJ4WmB70Cki1u3" version="21.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-19T02:50:49.936Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.2 Safari/605.1.15" etag="qzGrwgMBhrcXSvgwQZBR" version="21.6.3" type="github">
   <diagram name="第 1 页" id="kzD5A3jw51wFOWdprAX6">
     <mxGraphModel dx="1434" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="p9LRicOxTsJBR3PSWR2q-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/computer-hardware-hand-drawn-vol-1/52/signal__device__technology__radar__satellite__antenna__tower-128.png" vertex="1" parent="1">
+          <mxGeometry x="50" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p9LRicOxTsJBR3PSWR2q-2" value="数传终端" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
