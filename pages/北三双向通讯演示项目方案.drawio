@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-24T05:11:48.922Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.2 Safari/605.1.15" etag="PdAt5yCsjZSmIMYRKjcg" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-24T05:12:47.392Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.2 Safari/605.1.15" etag="UB2RUG57nLGIJbUiTmkZ" version="21.6.5" type="github">
   <diagram name="第 1 页" id="kzD5A3jw51wFOWdprAX6">
     <mxGraphModel dx="1193" dy="830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -37,10 +37,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p9LRicOxTsJBR3PSWR2q-9" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Connections.svg;" parent="1" vertex="1">
-          <mxGeometry x="430" y="275" width="50" height="50" as="geometry" />
+          <mxGeometry x="388.75" y="275" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="p9LRicOxTsJBR3PSWR2q-10" value="TCP服务器&lt;br&gt;（北斗终端驱动程序）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="381.25" y="325" width="147.5" height="40" as="geometry" />
+          <mxGeometry x="340" y="325" width="147.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p9LRicOxTsJBR3PSWR2q-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="p9LRicOxTsJBR3PSWR2q-11" target="p9LRicOxTsJBR3PSWR2q-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
