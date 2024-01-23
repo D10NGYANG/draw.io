@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T08:50:43.663Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="G52IfuUHu03wlmHU0mq-" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T08:52:11.191Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="6fbUBYjHP-2IzCnffh0B" version="22.1.18" type="github">
   <diagram name="第 1 页" id="ksGlbyrzV98prvoKTtoe">
     <mxGraphModel dx="1434" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="UaCcezVP2Ds6g5V0zQos-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="50" width="890" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="UaCcezVP2Ds6g5V0zQos-2" value="内部接口关系图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="UaCcezVP2Ds6g5V0zQos-2" value="外部接口设计图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="500" y="90" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UaCcezVP2Ds6g5V0zQos-3" value="APP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
