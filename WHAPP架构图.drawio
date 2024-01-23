@@ -1,9 +1,277 @@
-<mxfile host="app.diagrams.net" modified="2024-01-03T05:48:43.915Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" version="22.1.16" etag="raXclWwywlzDmHF2h8_D" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T08:21:21.617Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="T1tqSyrG2A6o6ewHx5at" version="22.1.18" type="github">
   <diagram name="第 1 页" id="laNZxUXsTQiLeZ5NJqqg">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-1" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="14" width="1050" height="856" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-2" value="内部接口关系图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="501" y="60" width="168" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-3" value="数据驱动&lt;br style=&quot;font-size: 18px;&quot;&gt;（数据库）" style="ellipse;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="480" y="330" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="1GVx7vbawI-xT4GVHx4T-4" target="1GVx7vbawI-xT4GVHx4T-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-11" value="用户信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GVx7vbawI-xT4GVHx4T-10">
+          <mxGeometry x="-0.2417" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="102.5" y="60" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-5" value="用户管理模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="125" y="60" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-7" value="登录页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="90" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-8" value="设置页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="130" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;jumpStyle=none;startArrow=classic;startFill=1;" edge="1" parent="1" source="1GVx7vbawI-xT4GVHx4T-15" target="1GVx7vbawI-xT4GVHx4T-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-20" value="联系人信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GVx7vbawI-xT4GVHx4T-19">
+          <mxGeometry x="-0.181" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="102.5" y="190" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-16" value="通讯录管理模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="125" y="190" width="87.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-17" value="联系人列表页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="220" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-18" value="联系人添加/编辑页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="260" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1GVx7vbawI-xT4GVHx4T-26" target="1GVx7vbawI-xT4GVHx4T-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-31" value="群组信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GVx7vbawI-xT4GVHx4T-30">
+          <mxGeometry x="-0.4164" y="2" relative="1" as="geometry">
+            <mxPoint x="-13" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="102.5" y="315" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-27" value="群组管理模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="125" y="315" width="87.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-28" value="群组列表页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="345" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-29" value="群组添加/编辑页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="385" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1GVx7vbawI-xT4GVHx4T-32" target="1GVx7vbawI-xT4GVHx4T-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-38" value="对话框信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GVx7vbawI-xT4GVHx4T-37">
+          <mxGeometry x="-0.2911" y="-1" relative="1" as="geometry">
+            <mxPoint x="-57" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="102.5" y="440" width="130" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-33" value="对话框管理模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="125" y="440" width="87.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-34" value="对话框列表页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="470" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-35" value="联系人添加/编辑页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="510" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-36" value="对话页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="550" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="1GVx7vbawI-xT4GVHx4T-39" target="1GVx7vbawI-xT4GVHx4T-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-82" value="消息信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GVx7vbawI-xT4GVHx4T-81">
+          <mxGeometry x="-0.1962" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="60" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-40" value="消息管理模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="962.5" y="60" width="87.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-41" value="对话框列表页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="947.5" y="90" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-43" value="对话页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="947.75" y="130" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="1GVx7vbawI-xT4GVHx4T-44" target="1GVx7vbawI-xT4GVHx4T-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-84" value="常用短语信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GVx7vbawI-xT4GVHx4T-83">
+          <mxGeometry x="-0.1233" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-44" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="941.25" y="190" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-45" value="常用短语管理模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="951.25" y="190" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-46" value="常用短语页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="948.75" y="220" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-47" value="对话页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="949" y="260" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="1GVx7vbawI-xT4GVHx4T-48" target="1GVx7vbawI-xT4GVHx4T-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-86" value="短报文信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GVx7vbawI-xT4GVHx4T-85">
+          <mxGeometry x="-0.3846" relative="1" as="geometry">
+            <mxPoint x="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-48" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="315" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-49" value="短报文管理模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="950" y="315" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-50" value="蓝牙通讯模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="947.5" y="345" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-51" value="对话页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="947.75" y="385" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="1GVx7vbawI-xT4GVHx4T-52" target="1GVx7vbawI-xT4GVHx4T-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-88" value="地图搜索历史记录信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GVx7vbawI-xT4GVHx4T-87">
+          <mxGeometry x="-0.1628" y="-1" relative="1" as="geometry">
+            <mxPoint x="55" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-52" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="941.25" y="440" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-53" value="地图搜索历史记录管理模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="951.25" y="440" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-55" value="地图搜索页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="949.25" y="500" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-89" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;edgeStyle=elbowEdgeStyle;" edge="1" parent="1" source="1GVx7vbawI-xT4GVHx4T-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-90" value="地图收藏记录信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GVx7vbawI-xT4GVHx4T-89">
+          <mxGeometry x="-0.4942" y="-1" relative="1" as="geometry">
+            <mxPoint x="45" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-56" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="941.75" y="551" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-57" value="地图收藏记录管理模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="951.75" y="551" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-58" value="地图页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="949.75" y="611" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="1GVx7vbawI-xT4GVHx4T-60" target="1GVx7vbawI-xT4GVHx4T-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-92" value="地图标绘记录信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GVx7vbawI-xT4GVHx4T-91">
+          <mxGeometry x="-0.0064" y="-4" relative="1" as="geometry">
+            <mxPoint x="103" y="58" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-59" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="741.25" y="671" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-60" value="地图标绘记录管理模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="751.25" y="671" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-61" value="地图页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="749.25" y="731" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1GVx7vbawI-xT4GVHx4T-62" target="1GVx7vbawI-xT4GVHx4T-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-94" value="地图电子围栏记录信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GVx7vbawI-xT4GVHx4T-93">
+          <mxGeometry x="-0.4968" y="-2" relative="1" as="geometry">
+            <mxPoint x="-2" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-62" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="581.25" y="671" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-63" value="地图电子围栏记录管理模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="591.25" y="671" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-64" value="地图页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="589.25" y="731" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1GVx7vbawI-xT4GVHx4T-65" target="1GVx7vbawI-xT4GVHx4T-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-96" value="轨迹记录信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GVx7vbawI-xT4GVHx4T-95">
+          <mxGeometry x="-0.5662" y="3" relative="1" as="geometry">
+            <mxPoint x="3" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-65" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="421.25" y="671" width="130" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-66" value="轨迹记录管理模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="431.25" y="671" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-67" value="地图页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="429.25" y="706" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-68" value="蓝牙通讯模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="429.25" y="749" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-69" value="定位模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="429.25" y="791" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="1GVx7vbawI-xT4GVHx4T-77" target="1GVx7vbawI-xT4GVHx4T-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-98" value="历史巡逻信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1GVx7vbawI-xT4GVHx4T-97">
+          <mxGeometry x="-0.7651" relative="1" as="geometry">
+            <mxPoint y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-76" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="261.25" y="671" width="130" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-77" value="历史巡逻管理模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="271.25" y="671" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-78" value="地图页" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="269.25" y="706" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-79" value="蓝牙通讯模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="269.25" y="749" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1GVx7vbawI-xT4GVHx4T-80" value="定位模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="269.25" y="791" width="115" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
