@@ -1,9 +1,118 @@
-<mxfile host="app.diagrams.net" modified="2024-01-24T03:29:06.054Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" version="22.1.21" etag="MuDd8IaGX3MGnhcIkoWv" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-24T03:39:26.709Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15" etag="Ys2fVuynjMoD_5ADC-sp" version="22.1.21" type="github">
   <diagram name="第 1 页" id="vIPhq70O9ckaEA5NUTRq">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FQs3AGTYDFYNvvodlLow-1" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="29" width="1090" height="770" as="geometry" />
+        </mxCell>
+        <mxCell id="FQs3AGTYDFYNvvodlLow-2" value="内外部接口设计" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="497.5" y="40" width="175" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FQs3AGTYDFYNvvodlLow-3" value="北斗APP" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="100" y="140" width="980" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="FQs3AGTYDFYNvvodlLow-4" value="北斗便携终端" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="100" y="660" width="630" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FQs3AGTYDFYNvvodlLow-5" value="安全套件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="770" y="660" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FQs3AGTYDFYNvvodlLow-6" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FQs3AGTYDFYNvvodlLow-4">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="310" y="650" as="sourcePoint" />
+            <mxPoint x="415" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FQs3AGTYDFYNvvodlLow-7" value="蓝牙通讯" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FQs3AGTYDFYNvvodlLow-6">
+          <mxGeometry x="0.0727" y="1" relative="1" as="geometry">
+            <mxPoint y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FQs3AGTYDFYNvvodlLow-10" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="924.5" y="660" as="sourcePoint" />
+            <mxPoint x="924.5" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FQs3AGTYDFYNvvodlLow-11" value="串口通讯" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FQs3AGTYDFYNvvodlLow-10">
+          <mxGeometry x="0.0727" y="1" relative="1" as="geometry">
+            <mxPoint y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FQs3AGTYDFYNvvodlLow-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.233;exitY=0.033;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="FQs3AGTYDFYNvvodlLow-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="440" as="sourcePoint" />
+            <mxPoint x="247" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FQs3AGTYDFYNvvodlLow-13" value="短报文数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FQs3AGTYDFYNvvodlLow-12">
+          <mxGeometry x="0.1606" y="-1" relative="1" as="geometry">
+            <mxPoint y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FQs3AGTYDFYNvvodlLow-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.233;exitY=0.033;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="662" as="sourcePoint" />
+            <mxPoint x="320" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FQs3AGTYDFYNvvodlLow-15" value="定位报告数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FQs3AGTYDFYNvvodlLow-14">
+          <mxGeometry x="0.1606" y="-1" relative="1" as="geometry">
+            <mxPoint y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FQs3AGTYDFYNvvodlLow-17" value="" style="endArrow=classic;startArrow=none;html=1;rounded=0;exitX=0.233;exitY=0.033;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;startFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="662" as="sourcePoint" />
+            <mxPoint x="500" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FQs3AGTYDFYNvvodlLow-18" value="信号" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FQs3AGTYDFYNvvodlLow-17">
+          <mxGeometry x="0.1606" y="-1" relative="1" as="geometry">
+            <mxPoint y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FQs3AGTYDFYNvvodlLow-19" value="" style="endArrow=classic;startArrow=none;html=1;rounded=0;exitX=0.233;exitY=0.033;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;startFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="662" as="sourcePoint" />
+            <mxPoint x="540" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FQs3AGTYDFYNvvodlLow-20" value="定位" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FQs3AGTYDFYNvvodlLow-19">
+          <mxGeometry x="0.1606" y="-1" relative="1" as="geometry">
+            <mxPoint y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FQs3AGTYDFYNvvodlLow-21" value="数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="840" y="260" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="FQs3AGTYDFYNvvodlLow-22" value="UI层" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="205" width="220" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="FQs3AGTYDFYNvvodlLow-23" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="FQs3AGTYDFYNvvodlLow-22" target="FQs3AGTYDFYNvvodlLow-21">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="470" y="490" as="sourcePoint" />
+            <mxPoint x="570" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FQs3AGTYDFYNvvodlLow-24" value="用户、联系人、群组、消息信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FQs3AGTYDFYNvvodlLow-23">
+          <mxGeometry x="-0.0978" y="2" relative="1" as="geometry">
+            <mxPoint y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FQs3AGTYDFYNvvodlLow-25" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="390" y="276" as="sourcePoint" />
+            <mxPoint x="840" y="276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FQs3AGTYDFYNvvodlLow-26" value="地图、搜索、轨迹、巡逻信息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FQs3AGTYDFYNvvodlLow-25">
+          <mxGeometry x="-0.0978" y="2" relative="1" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
